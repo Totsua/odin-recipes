@@ -13,15 +13,38 @@ color:rgb(88, 85, 233);
 text-decoration: underline;
 text-align: center;
 }
+.sub-head,.lasagna{
+    color:rgb(88, 85, 233);
+    font-weight: 900;
+    background-color: rgb(255, 192, 203);
+}
 
-.main{
+.main-list{
     list-style-position: inside;
     text-align: justify;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 .image {
     width: 300px;
     height: auto;
     float:right;
+}
+.intro{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-align: center ;
+}
+.header{
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: solid underline;
+}
+#garfield{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
 }
