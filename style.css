@@ -3,6 +3,7 @@
     color:rgb(88, 85, 233);
     background-color: pink;
     font-size: 50px;
+    text-decoration: none;
 }
 
 .sub-head{
@@ -20,12 +21,20 @@ text-align: center;
 }
 
 .main-list{
+    margin-left:40%;
     list-style-position: inside;
-    text-align: justify;
     font-size: 20px;
+    
 }
 
-.image {
+.main-list.steps{
+    list-style-position: outside;
+    text-align: left;
+    line-height:45px;
+    margin-right:50%;
+    margin-left: 0%;
+}
+#odin-horn {
     width: 300px;
     height: auto;
     float:right;
@@ -40,11 +49,19 @@ text-align: center;
     font-size: 30px;
     font-style: italic;
     text-decoration: solid underline;
+    text-align: center;
 }
 #garfield{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    height: auto;
+}
+#baking-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
     height: auto;
 }
