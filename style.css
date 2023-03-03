@@ -7,11 +7,10 @@
 }
 
 .sub-head{
-font-size: 40px;
+font-size: 35px;
 font-family: 'Courier New', Courier, monospace;
 font-weight: 800;
 color:rgb(88, 85, 233);
-text-decoration: underline;
 text-align: center;
 }
 .sub-head,.lasagna{
@@ -34,7 +33,15 @@ text-align: center;
     margin-right:50%;
     margin-left: 0%;
 }
-#odin-horn {
+.main-list.one{
+    margin-right: 100px;
+    margin-left: 500px;
+    float: left;
+}
+.main-list.two{
+    margin-left: 900px;
+    }
+.odin-horn {
     width: 300px;
     height: auto;
     float:right;
@@ -45,11 +52,10 @@ text-align: center;
     font-weight: bold;
     text-align: center ;
 }
-.header{
-    font-size: 30px;
+.headline.sub{
+    font-size: 40px;
     font-style: italic;
-    text-decoration: solid underline;
-    text-align: center;
+    
 }
 #garfield{
     display: block;
@@ -64,4 +70,17 @@ text-align: center;
     margin-right: auto;
     width: auto;
     height: auto;
+}
+.muppet-chef{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    float: right;
+}
+.cutting-chef{
+    width: auto;
+    height: 600px;
+    float: right;
 }
