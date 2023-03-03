@@ -3,9 +3,15 @@
     color:rgb(88, 85, 233);
     background-color: pink;
     font-size: 50px;
+    text-decoration: underline;
+}
+.headline.sub{
     text-decoration: none;
 }
-
+.headline.two{
+    margin-top: -33px;
+    text-decoration: none;
+}
 .sub-head{
 font-size: 35px;
 font-family: 'Courier New', Courier, monospace;
