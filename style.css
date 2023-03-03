@@ -25,7 +25,10 @@ text-align: center;
     font-size: 20px;
     
 }
-
+#instant{
+    margin-left:600px;
+    line-height: 30px;
+}
 .main-list.steps{
     list-style-position: outside;
     text-align: left;
@@ -57,12 +60,19 @@ text-align: center;
     font-style: italic;
     
 }
-#garfield{
+.head-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
+}
+#garfield{
     width: 30%;
     height: auto;
+}
+#naruto{
+    width:20%;
+    height:auto;
 }
 #baking-img{
     display: block;
@@ -83,4 +93,15 @@ text-align: center;
     width: auto;
     height: 600px;
     float: right;
+}
+.ramen-bowl{
+ float: right;
+ width:300px;
+ height: auto;
+ margin-left: 200px;
+}
+.noodle-bowl{
+float: left;
+width: 350px;
+height: auto;
 }
